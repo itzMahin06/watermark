@@ -1,0 +1,15 @@
+body::before {
+                content: "";
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-45deg);
+                background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5z9ttW_OY7Ml44DgX9yRwpYX213b0_7pYt7fsesSH9kNP0Sdvs1vKT0Zut2O6lO37N3uJXaCUm85MTotbE6I9tMRAQEZZ2QsnwIKFz-ewbquIi_aypa8e1NyvuO6KgFYo3QEXB7yFpoIwiVT9embJBUHDYxj2LHRsXFZxo7hYOfeZjZbCwqGQBkyOhfaV/s1600/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%20%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97_20240701_105326_0000.png');
+                background-size: 300px 300px; /* Adjust size as needed */
+                background-repeat: no-repeat;
+                width: 600px; /* Match background-size width */
+                height: 400px; /* Match background-size height */
+                opacity: 0.1;
+                z-index: 9999;
+                pointer-events: none;
+            }
